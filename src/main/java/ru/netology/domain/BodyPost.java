@@ -4,6 +4,19 @@ public class BodyPost {
     private String urlImage;
     private String text;
 
-//    + getters/setters
+    public String getUrlImage() {
+        return urlImage;
+    }
 
+    public void setUrlImage(String urlImage) {
+        this.urlImage = urlImage;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
 }
