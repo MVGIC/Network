@@ -114,14 +114,6 @@ public class Post {
         this.postSource = postSource;
     }
 
-    public String getGeo() {
-        return Geo;
-    }
-
-    public void setGeo(String geo) {
-        Geo = geo;
-    }
-
     public String getSignerId() {
         return signerId;
     }
@@ -168,46 +160,6 @@ public class Post {
 
     public void setMarkedAsAds(boolean markedAsAds) {
         this.markedAsAds = markedAsAds;
-    }
-
-    public String getExtra() {
-        return Extra;
-    }
-
-    public void setExtra(String extra) {
-        Extra = extra;
-    }
-
-    public String getBodyPost() {
-        return BodyPost;
-    }
-
-    public void setBodyPost(String bodyPost) {
-        BodyPost = bodyPost;
-    }
-
-    public int getLikesInfo() {
-        return LikesInfo;
-    }
-
-    public void setLikesInfo(int likesInfo) {
-        LikesInfo = likesInfo;
-    }
-
-    public String getCommentsInfo() {
-        return CommentsInfo;
-    }
-
-    public void setCommentsInfo(String commentsInfo) {
-        CommentsInfo = commentsInfo;
-    }
-
-    public int getSharesInfo() {
-        return SharesInfo;
-    }
-
-    public void setSharesInfo(int sharesInfo) {
-        SharesInfo = sharesInfo;
     }
 
     public int getViewersInfo() {
