@@ -11,7 +11,7 @@ public class Post {
     private String replyPostId;
     private int friends_only;
     private String postType;
-    private Object postSource;
+    private String postSource;
     private String Geo geo;
     private String signerId;
     private boolean canPin;
@@ -106,11 +106,11 @@ public class Post {
         this.postType = postType;
     }
 
-    public Object getPostSource() {
+    public String getPostSource() {
         return postSource;
     }
 
-    public void setPostSource(Object postSource) {
+    public void setPostSource(String postSource) {
         this.postSource = postSource;
     }
 
