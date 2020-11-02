@@ -12,18 +12,18 @@ public class Post {
     private int friends_only;
     private String postType;
     private String postSource;
-    private String Geo geo;
+    private Geo geo;
     private String signerId;
     private boolean canPin;
     private boolean canDelete;
     private boolean canEdit;
     private boolean isPinned;
     private boolean markedAsAds;
-    private String Extra extra;
-    private String BodyPost bodyPost;
-    private int LikesInfo likesInfo;
-    private String CommentsInfo commentsInfo;
-    private int SharesInfo sharesinfo;
+    private Extra extra;
+    private BodyPost bodyPost;
+    private LikesInfo likesInfo;
+    private CommentsInfo commentsInfo;
+    private SharesInfo sharesinfo;
     private int viewersInfo;
 
     public String getUrlMainPage() {
